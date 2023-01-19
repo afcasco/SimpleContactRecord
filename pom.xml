@@ -100,7 +100,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<attachClasses>true</attachClasses>
-					<webXml>web/WEB-INF/web.xml</webXml>
+					<webXml>webapp/WEB-INF/web.xml</webXml>
 					<webResources>
 						<resource>
 							<directory>web</directory>

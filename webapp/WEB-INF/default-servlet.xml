@@ -29,9 +29,9 @@ http://www.springframework.org/schema/tx ">
           destroy-method="close">
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
         <property name="jdbcUrl"
-                  value="jdbc:mysql://localhost:43306/web_customer_tracker?useSSL=false&amp;serverTimezone=UTC"/>
-        <property name="user" value="springstudent"/>
-        <property name="password" value="springstudent"/>
+                  value="jdbc:mysql://localhost:43306/simple_contact_record?useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="user" value="contactrecord"/>
+        <property name="password" value="contactrecord"/>
 
         <property name="initialPoolSize" value="5"/>
         <property name="minPoolSize" value="5"/>
